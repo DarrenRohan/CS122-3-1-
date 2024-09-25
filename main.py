@@ -16,7 +16,9 @@ if num1 > num2:
             snum = num2
             print (gnum, " is the largest number.", mnum, " is the second largest.", snum, " is the smallest number.") 
     else:
-        gnum = num3, mnum = num1, snum = num2
+        gnum = num3
+        mnum = num1
+        snum = num2
         print (gnum, " is the largest number.", mnum, " is the second largest.", snum, " is the smallest number.") 
 else:
     if num2 > num3:
@@ -30,5 +32,7 @@ else:
             snum = num1
             print (gnum, " is the largest number.", mnum, " is the second largest.", snum, " is the smallest number.") 
     else:
-        gnum = num3, mnum = num2, snum = num1
+        gnum = num3 
+        mnum = num2 
+        snum = num1
         print (gnum, " is the largest number.", mnum, " is the second largest.", snum, " is the smallest number.") 
